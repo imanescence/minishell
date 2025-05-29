@@ -1,5 +1,9 @@
 # minishell
-A basic shell written in C
+## A basic shell written in C
+
+<p align="center">
+  <img src="https://github.com/imanescence/minishell/blob/main/img/Screenshot%20from%202025-05-29%2016-46-35.png" alt="minishell" width="450"/>
+</p>
 
 Minishell is a mini Unix shell implemented in C, designed to replicate core functionalities of the **/bin/bash shell**. This project was a crucial part of the 42 school curriculum, testing both technical and collaborative skills.
 
