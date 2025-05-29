@@ -6,7 +6,7 @@
 /*   By: ssteveli <ssteveli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/02 17:46:32 by ssteveli          #+#    #+#             */
-/*   Updated: 2024/08/29 18:44:18 by iait-ouf         ###   ########.fr       */
+/*   Updated: 2025/05/29 16:22:11 by iait-ouf         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -194,6 +194,12 @@ int		len_to_sep(char *str, int i, char c);
 int		error_6(char *str);
 void	*ft_kalloc(int num, int size);
 
-t_glob	g_glob;
+typedef struct s_glob
+{
+        int                             in_heredoc;
+        int                             exit_code;
+}       t_glob;
+
+extern t_glob g_glob;
 
 #endif

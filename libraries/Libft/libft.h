@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_printf.h                                        :+:      :+:    :+:   */
+/*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ssteveli <ssteveli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/17 17:38:53 by ssteveli          #+#    #+#             */
-/*   Updated: 2024/08/28 17:38:04 by iait-ouf         ###   ########.fr       */
+/*   Updated: 2025/05/29 16:21:59 by iait-ouf         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,11 +23,6 @@
 # define READ 0
 # define WRITE 1
 
-typedef struct s_glob
-{
-	int				in_heredoc;
-	int				exit_code;
-}	t_glob;
 
 typedef struct s_data
 {

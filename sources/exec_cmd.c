@@ -6,11 +6,13 @@
 /*   By: ssteveli <ssteveli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/26 09:56:18 by iait-ouf          #+#    #+#             */
-/*   Updated: 2024/08/30 13:28:27 by iait-ouf         ###   ########.fr       */
+/*   Updated: 2025/05/29 16:29:41 by iait-ouf         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/minishell.h"
+
+t_glob g_glob;
 
 void	minishell_case(t_data *data, t_cmd *cmds)
 {
